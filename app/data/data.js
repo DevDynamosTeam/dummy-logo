@@ -73,6 +73,7 @@ export const data = [
       size: "small",
       random: true
     },
+    
     { id: 3, 
       logo: <Logo3 />,
       category: "abstract",
@@ -499,8 +500,8 @@ export const data = [
     },
     { id: 56, 
       logo: <Logo56 />,
-      category: "abstract",
-      name: "logo1",
+      category: "combination-mark",
+      name: "logo56",
       color: "black",
       size: "small",
       random: true
@@ -508,7 +509,7 @@ export const data = [
     { id: 57, 
       logo: <Logo57 />,
       category: "abstract",
-      name: "logo1",
+      name: "logo57",
       color: "black",
       size: "small",
       random: true
