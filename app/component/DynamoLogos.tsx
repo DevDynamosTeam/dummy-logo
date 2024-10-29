@@ -64,11 +64,7 @@ export default function DynamoLogos({
 
   return (
     <div className="grid grid-cols-1 items-center justify-center">
-      {displayItem && (
-        <div key={displayItem.id} className="flex gap-5 bg-sky-400 p-10">
-          {displayItem.logo}
-        </div>
-      )}
+      {displayItem && <>{displayItem.logo}</>}
     </div>
   );
 }
