@@ -4,7 +4,7 @@ import DynamoLogos from "./component/DynamoLogos";
 export default function Home() {
   return (
     <div className="">
-      <DynamoLogos name="logo9" />
+      <DynamoLogos name="logo57" />
     </div>
   );
 }
