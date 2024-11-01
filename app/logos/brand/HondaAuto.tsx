@@ -1,4 +1,4 @@
-export default function HondAuto() {
+export default function HondaAuto() {
   return (
     <svg
       width="801"
