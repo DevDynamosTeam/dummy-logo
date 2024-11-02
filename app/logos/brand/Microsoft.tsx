@@ -1,9 +1,15 @@
-export default function Microsoft() {
+export default function Microsoft({
+  width = "250",
+  height = "82",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="250"
-      height="82"
-      viewBox="0 0 250 82"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -34,8 +40,8 @@ export default function Microsoft() {
         </clipPath>
         <clipPath id="clip1_401_1722">
           <rect
-            width="100"
-            height="21.3018"
+            width={width}
+            height={height}
             fill="white"
             transform="translate(111 30)"
           />

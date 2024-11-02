@@ -1,9 +1,15 @@
-export default function Linkedin() {
+export default function Linkedin({
+  width = "100",
+  height = "16",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="26"
-      viewBox="0 0 100 26"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -15,7 +21,7 @@ export default function Linkedin() {
       </g>
       <defs>
         <clipPath id="clip0_401_1897">
-          <rect width="100" height="25.3906" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

@@ -1,9 +1,15 @@
-export default function GoogleAds() {
+export default function GoogleAds({
+  width = "50",
+  height = "46",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="50"
-      height="46"
-      viewBox="0 0 50 46"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -31,7 +37,7 @@ export default function GoogleAds() {
       </g>
       <defs>
         <clipPath id="clip0_401_2335">
-          <rect width="50" height="45.5823" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

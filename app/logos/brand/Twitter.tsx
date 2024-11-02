@@ -1,9 +1,15 @@
-export default function Twitter() {
+export default function Twitter({
+  width = "58",
+  height = "47",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="58"
-      height="47"
-      viewBox="0 0 58 47"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -15,7 +21,7 @@ export default function Twitter() {
       </g>
       <defs>
         <clipPath id="clip0_401_337">
-          <rect width="58" height="47" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

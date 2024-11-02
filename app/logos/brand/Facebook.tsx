@@ -1,9 +1,15 @@
-export default function FaceBook() {
+export default function FaceBook({
+  width = "100",
+  height = "21",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="21"
-      viewBox="0 0 100 21"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -43,7 +49,7 @@ export default function FaceBook() {
       </g>
       <defs>
         <clipPath id="clip0_401_2556">
-          <rect width="100" height="20.6349" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

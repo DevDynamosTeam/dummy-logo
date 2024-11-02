@@ -1,9 +1,15 @@
-export default function Netlify() {
+export default function Netlify({
+  width = "100",
+  height = "27",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="27"
-      viewBox="0 0 100 27"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -32,7 +38,7 @@ export default function Netlify() {
           <stop offset="1" stop-color="#4D9ABF" />
         </radialGradient>
         <clipPath id="clip0_401_1596">
-          <rect width="100" height="26.555" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

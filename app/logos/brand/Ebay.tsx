@@ -1,9 +1,15 @@
-export default function Ebay() {
+export default function Ebay({
+  width = "100",
+  height = "41",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="41"
-      viewBox="0 0 100 41"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -27,7 +33,7 @@ export default function Ebay() {
       </g>
       <defs>
         <clipPath id="clip0_401_2589">
-          <rect width="100" height="40.108" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

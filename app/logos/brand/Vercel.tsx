@@ -1,9 +1,15 @@
-export default function Vercel() {
+export default function Vercel({
+  width = "100",
+  height = "23",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="23"
-      viewBox="0 0 100 23"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -15,7 +21,7 @@ export default function Vercel() {
       </g>
       <defs>
         <clipPath id="clip0_401_189">
-          <rect width="100" height="22.5327" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

@@ -1,9 +1,15 @@
-export default function GitBook() {
+export default function GitBook({
+  width = "100",
+  height = "20",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="20"
-      viewBox="0 0 100 20"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -44,7 +50,7 @@ export default function GitBook() {
       </g>
       <defs>
         <clipPath id="clip0_401_2406">
-          <rect width="100" height="20" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

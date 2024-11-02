@@ -1,9 +1,15 @@
-export default function Shopify() {
+export default function Shopify({
+  width = "100",
+  height = "29",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="29"
-      viewBox="0 0 100 29"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -55,7 +61,7 @@ export default function Shopify() {
       </g>
       <defs>
         <clipPath id="clip0_401_834">
-          <rect width="100" height="28.3721" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

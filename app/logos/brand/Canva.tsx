@@ -1,9 +1,15 @@
-export default function Canva() {
+export default function Canva({
+  width = "100",
+  height = "50",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="50"
-      height="16"
-      viewBox="0 0 50 16"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -27,7 +33,7 @@ export default function Canva() {
           <stop offset="1" stop-color="#7225E3" />
         </linearGradient>
         <clipPath id="clip0_401_3017">
-          <rect width="50" height="15.9314" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

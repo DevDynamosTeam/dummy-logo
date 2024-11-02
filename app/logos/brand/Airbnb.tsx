@@ -1,9 +1,15 @@
-export default function airbnb() {
+export default function airbnb({
+  width = "100",
+  height = "32",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="32"
-      viewBox="0 0 100 32"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -15,7 +21,7 @@ export default function airbnb() {
       </g>
       <defs>
         <clipPath id="clip0_401_3330">
-          <rect width="100" height="31.1526" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

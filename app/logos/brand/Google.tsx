@@ -1,9 +1,15 @@
-export default function Google() {
+export default function Google({
+  width = "100",
+  height = "33",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="33"
-      viewBox="0 0 100 33"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -35,7 +41,7 @@ export default function Google() {
       </g>
       <defs>
         <clipPath id="clip0_401_2353">
-          <rect width="100" height="32.64" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

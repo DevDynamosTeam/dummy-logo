@@ -1,9 +1,15 @@
-export default function Wordphress() {
+export default function Wordphress({
+  width = "100",
+  height = "21",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="21"
-      viewBox="0 0 100 21"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -15,7 +21,7 @@ export default function Wordphress() {
       </g>
       <defs>
         <clipPath id="clip0_401_99">
-          <rect width="100" height="20.4724" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

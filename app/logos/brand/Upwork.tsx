@@ -1,9 +1,15 @@
-export default function UpWork() {
+export default function UpWork({
+  width = "102",
+  height = "2280",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="102"
-      height="28"
-      viewBox="0 0 102 28"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -31,7 +37,7 @@ export default function UpWork() {
       </g>
       <defs>
         <clipPath id="clip0_401_273">
-          <rect width="102" height="28" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

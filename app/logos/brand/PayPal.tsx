@@ -1,9 +1,15 @@
-export default function PayPal() {
+export default function PayPal({
+  width = "100",
+  height = "25",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="25"
-      viewBox="0 0 100 25"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -87,7 +93,7 @@ export default function PayPal() {
       </g>
       <defs>
         <clipPath id="clip0_401_1448">
-          <rect width="100" height="24.3902" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

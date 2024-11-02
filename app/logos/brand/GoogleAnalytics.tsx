@@ -1,9 +1,15 @@
-export default function GoogleAnalytics() {
+export default function GoogleAnalytics({
+  width = "100",
+  height = "16",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="16"
-      viewBox="0 0 100 16"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -47,7 +53,7 @@ export default function GoogleAnalytics() {
       </g>
       <defs>
         <clipPath id="clip0_401_2325">
-          <rect width="100" height="15.8784" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

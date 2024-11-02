@@ -1,9 +1,17 @@
-export default function Netflix() {
+export default function Netflix(
+  {
+    width = "100",
+    height = "28",
+  }: {
+    width?: string;
+    height?: string;
+  }
+) {
   return (
     <svg
-      width="100"
-      height="28"
-      viewBox="0 0 100 28"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -15,7 +23,7 @@ export default function Netflix() {
       </g>
       <defs>
         <clipPath id="clip0_401_1605">
-          <rect width="100" height="27.0508" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

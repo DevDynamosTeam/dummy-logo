@@ -1,9 +1,15 @@
-export default function Spotify() {
+export default function Spotify({
+  width = "100",
+  height = "32",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="32"
-      viewBox="0 0 100 32"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

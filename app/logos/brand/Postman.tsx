@@ -1,9 +1,15 @@
-export default function Postman() {
+export default function Postman({
+  width = "100",
+  height = "31",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="31"
-      viewBox="0 0 100 31"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -123,7 +129,7 @@ export default function Postman() {
       </g>
       <defs>
         <clipPath id="clip0_401_1254">
-          <rect width="100" height="30.6061" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

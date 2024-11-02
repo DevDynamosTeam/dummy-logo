@@ -1,9 +1,15 @@
-export default function BritisCouncil() {
+export default function BritisCouncil({
+  width = "200",
+  height = "200",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="801"
-      height="800"
-      viewBox="0 0 801 800"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

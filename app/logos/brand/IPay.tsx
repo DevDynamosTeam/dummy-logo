@@ -1,9 +1,15 @@
-export default function IPay() {
+export default function IPay({
+  width = "200",
+  height = "200",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="801"
-      height="800"
-      viewBox="0 0 801 800"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -20,8 +26,8 @@ export default function IPay() {
       <defs>
         <clipPath id="clip0_1_32">
           <rect
-            width="800"
-            height="800"
+            width={width}
+            height={height}
             fill="white"
             transform="translate(0.22168)"
           />

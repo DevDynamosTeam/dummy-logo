@@ -1,9 +1,15 @@
-export default function GoogleFonts() {
+export default function GoogleFonts({
+  width = "100",
+  height = "15",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="15"
-      viewBox="0 0 100 15"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -80,7 +86,7 @@ export default function GoogleFonts() {
       </g>
       <defs>
         <clipPath id="clip0_401_2301">
-          <rect width="100" height="14.4444" fill="white" />
+          <rect width={width} height={height}  fill="white" />
         </clipPath>
       </defs>
     </svg>

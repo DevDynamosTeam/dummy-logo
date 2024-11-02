@@ -1,9 +1,15 @@
-export default function DropBox() {
+export default function DropBox({
+  width = "100",
+  height = "20",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="20"
-      viewBox="0 0 100 20"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

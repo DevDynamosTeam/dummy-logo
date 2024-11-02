@@ -1,9 +1,15 @@
-export default function Bmw() {
+export default function Bmw({
+  width = "200",
+  height = "200",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="800"
-      height="800"
-      viewBox="0 0 800 800"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -45,7 +51,7 @@ export default function Bmw() {
       </g>
       <defs>
         <clipPath id="clip0_1_40">
-          <rect width="800" height="800" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>

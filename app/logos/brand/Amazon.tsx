@@ -1,9 +1,15 @@
-export default function Amazon() {
+export default function Amazon({
+  width = "100",
+  height = "31",
+}: {
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
-      width="100"
-      height="31"
-      viewBox="0 0 100 31"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -43,7 +49,7 @@ export default function Amazon() {
       </g>
       <defs>
         <clipPath id="clip0_401_3306">
-          <rect width="100" height="30.1824" fill="white" />
+          <rect width={width} height={height} fill="white" />
         </clipPath>
       </defs>
     </svg>
