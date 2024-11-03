@@ -26,7 +26,6 @@ export default function DynamoLogos({
   random?: boolean;
 }) {
   const items = data;
-  console.log(items);
   const [displayItem, setDisplayItem] = useState<LogoItem | null>();
 
   const filteredItems = useMemo(() => {
