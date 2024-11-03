@@ -9,7 +9,7 @@ export default function Uber({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox='0 0 87 30'
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -33,7 +33,7 @@ export default function Uber({
       </g>
       <defs>
         <clipPath id="clip0_401_292">
-          <rect width={width} height={height} fill="white" />
+          <rect width='87' height='30' fill="white" />
         </clipPath>
       </defs>
     </svg>

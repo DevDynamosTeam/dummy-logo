@@ -9,7 +9,7 @@ export default function Flipkart({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox="0 0 800 800"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -168,8 +168,8 @@ export default function Flipkart({
         </linearGradient>
         <clipPath id="clip0_1_96">
           <rect
-            width={width}
-            height={height}
+            width='800'
+            height='800'
             fill="white"
             transform="translate(0.444336)"
           />

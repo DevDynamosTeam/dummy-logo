@@ -1,3 +1,4 @@
+import React from "react";
 export default function Vercel({
   width = "100",
   height = "23",
@@ -9,7 +10,7 @@ export default function Vercel({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox='0 0 100 23'
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -21,7 +22,7 @@ export default function Vercel({
       </g>
       <defs>
         <clipPath id="clip0_401_189">
-          <rect width={width} height={height} fill="white" />
+          <rect width='100' height='23' fill="white" />
         </clipPath>
       </defs>
     </svg>

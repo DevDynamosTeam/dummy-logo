@@ -9,7 +9,7 @@ export default function HondaAuto({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox='0 0 800 800'
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -26,8 +26,8 @@ export default function HondaAuto({
       <defs>
         <clipPath id="clip0_1_152">
           <rect
-            width={width}
-            height={height}
+            width='800'
+            height='800'
             fill="white"
             transform="translate(0.888916)"
           />

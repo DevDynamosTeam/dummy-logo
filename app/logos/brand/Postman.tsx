@@ -9,7 +9,7 @@ export default function Postman({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox='0 0 100 31'
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -129,7 +129,7 @@ export default function Postman({
       </g>
       <defs>
         <clipPath id="clip0_401_1254">
-          <rect width={width} height={height} fill="white" />
+          <rect width='100' height='31' fill="white" />
         </clipPath>
       </defs>
     </svg>

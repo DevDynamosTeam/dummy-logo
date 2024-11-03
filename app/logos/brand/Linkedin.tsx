@@ -8,8 +8,8 @@ export default function Linkedin({
   return (
     <svg
       width={width}
-      height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      height={height}     
+      viewBox="0 0 100 26"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -21,7 +21,7 @@ export default function Linkedin({
       </g>
       <defs>
         <clipPath id="clip0_401_1897">
-          <rect width={width} height={height} fill="white" />
+          <rect width="100" height="25.3906" fill="white" />
         </clipPath>
       </defs>
     </svg>

@@ -9,7 +9,7 @@ export default function GoPro({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox='0 0 800 800'
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -19,15 +19,7 @@ export default function GoPro({
           fill="black"
         />
         <path
-          d="M338.152 431.522H431.57V502.952H338.152V431.522ZM450.835 431.522H544.25V502.952H450.835V431.522Z"
-          fill="#00AEEF"
-        />
-        <path
-          d="M564.251 431.516H657.659V502.939H564.251V431.516Z"
-          fill="#005DAC"
-        />
-        <path
-          d="M680.056 431.522H773.47V502.952H680.056V431.522Z"
+          d="M338'800'431.522H773.47V502.952H680.056V431.522Z"
           fill="white"
           stroke="black"
           stroke-width="1.63455"
@@ -60,8 +52,8 @@ export default function GoPro({
       <defs>
         <clipPath id="clip0_1_130">
           <rect
-            width={width}
-            height={height}
+            width='800'
+            height='800'
             fill="white"
             transform="translate(0.110352)"
           />

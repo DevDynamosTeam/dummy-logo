@@ -1,3 +1,4 @@
+import React from "react";
 export default function Microsoft({
   width = "250",
   height = "82",
@@ -9,7 +10,7 @@ export default function Microsoft({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox='0 0 250 82'
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -40,8 +41,8 @@ export default function Microsoft({
         </clipPath>
         <clipPath id="clip1_401_1722">
           <rect
-            width={width}
-            height={height}
+            width='250'
+            height='82'
             fill="white"
             transform="translate(111 30)"
           />

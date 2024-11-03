@@ -9,7 +9,7 @@ export default function Printerest({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox='0 0 100 25'
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -65,7 +65,7 @@ export default function Printerest({
       </g>
       <defs>
         <clipPath id="clip0_401_1416">
-          <rect width={width} height={height} fill="white" />
+          <rect width='100' height='25' fill="white" />
         </clipPath>
       </defs>
     </svg>

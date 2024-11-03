@@ -9,7 +9,7 @@ export default function Twitter({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox='0 0 58 47'
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -21,7 +21,7 @@ export default function Twitter({
       </g>
       <defs>
         <clipPath id="clip0_401_337">
-          <rect width={width} height={height} fill="white" />
+          <rect width='58' height='47' fill="white" />
         </clipPath>
       </defs>
     </svg>

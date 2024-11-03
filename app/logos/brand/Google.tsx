@@ -9,7 +9,7 @@ export default function Google({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox="0 0 100 33"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -41,7 +41,7 @@ export default function Google({
       </g>
       <defs>
         <clipPath id="clip0_401_2353">
-          <rect width={width} height={height} fill="white" />
+          <rect width="100" height="32.64" fill="white" />
         </clipPath>
       </defs>
     </svg>

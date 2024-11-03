@@ -9,7 +9,7 @@ export default function Heineken({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox='0 0 800 800'
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -41,7 +41,7 @@ export default function Heineken({
       </g>
       <defs>
         <clipPath id="clip0_1_140">
-          <rect width={width} height={height} fill="white" />
+          <rect width='800' height='800' fill="white" />
         </clipPath>
       </defs>
     </svg>

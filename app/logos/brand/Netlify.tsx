@@ -1,3 +1,4 @@
+import React from "react";
 export default function Netlify({
   width = "100",
   height = "27",
@@ -9,7 +10,7 @@ export default function Netlify({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox='0 0 100 27'
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -38,7 +39,7 @@ export default function Netlify({
           <stop offset="1" stop-color="#4D9ABF" />
         </radialGradient>
         <clipPath id="clip0_401_1596">
-          <rect width={width} height={height} fill="white" />
+          <rect width='100' height='27' fill="white" />
         </clipPath>
       </defs>
     </svg>

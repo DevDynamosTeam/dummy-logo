@@ -1,3 +1,4 @@
+import React from "react";
 export default function Wordphress({
   width = "100",
   height = "21",
@@ -9,7 +10,7 @@ export default function Wordphress({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox='0 0 100 21'
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -21,7 +22,7 @@ export default function Wordphress({
       </g>
       <defs>
         <clipPath id="clip0_401_99">
-          <rect width={width} height={height} fill="white" />
+          <rect width='100' height='21' fill="white" />
         </clipPath>
       </defs>
     </svg>

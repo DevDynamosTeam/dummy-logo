@@ -1,3 +1,4 @@
+import React from "react";
 export default function WebFlow({
   width = "250",
   height = "82",
@@ -9,7 +10,7 @@ export default function WebFlow({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox='0 0 250 82'
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -40,8 +41,8 @@ export default function WebFlow({
         </clipPath>
         <clipPath id="clip1_401_163">
           <rect
-            width={width}
-            height={height}
+            width='250'
+            height='82'
             fill="white"
             transform="translate(95 28)"
           />

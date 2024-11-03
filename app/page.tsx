@@ -1,10 +1,10 @@
 "use client";
-import DynamoLogos from "./component/DynamoLogos";
+import HomePage from "./home/page";
 
 export default function Home() {
   return (
     <div className="">
-      <DynamoLogos name="wordphress" />
+      <HomePage/>
     </div>
   );
 }
