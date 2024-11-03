@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function Bmw({
   width = "100",
   height = "100",

@@ -15,7 +15,7 @@ export default function Logo46({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox="0 0 111 122"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

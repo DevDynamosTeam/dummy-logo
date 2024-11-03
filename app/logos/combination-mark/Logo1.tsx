@@ -1,16 +1,21 @@
 import React from "react";
 
-export default function Logo1({ fill="black", stroke="black", width="264", height="174" } :{
-  fill?: string
-  stroke?: string
-  width?: string
-  height?: string
- }) {
+export default function Logo1({
+  fill = "black",
+  stroke = "black",
+  width = "264",
+  height = "174",
+}: {
+  fill?: string;
+  stroke?: string;
+  width?: string;
+  height?: string;
+}) {
   return (
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox='0 0 264 174'
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

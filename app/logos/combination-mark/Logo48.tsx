@@ -15,7 +15,7 @@ export default function Logo48({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox="0 0 298 81"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

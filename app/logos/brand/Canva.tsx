@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function Canva({
   width = "100",
   height = "50",

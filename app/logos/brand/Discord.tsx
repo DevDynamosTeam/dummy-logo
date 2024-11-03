@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function Discord({
   width = "100",
   height = "20",

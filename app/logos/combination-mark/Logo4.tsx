@@ -13,9 +13,9 @@ export default function Logo4({
 }) {
   return (
     <svg
-      width="288"
-      height="116"
-      viewBox={`0 0 ${width} ${height}`}
+      width={width}
+      height={height}
+      viewBox='0 0 288 116'
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

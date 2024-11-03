@@ -15,7 +15,7 @@ export default function Logo47({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox="0 0 234 60"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -71,7 +71,7 @@ export default function Logo47({
       />
       <defs>
         <clipPath id="clip0_209_371">
-          <rect width="60" height="60" fill="white" />
+          <rect width="234" height="60" fill="white" />
         </clipPath>
       </defs>
     </svg>

@@ -15,7 +15,7 @@ export default function Logo54({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox="0 0 234 64"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

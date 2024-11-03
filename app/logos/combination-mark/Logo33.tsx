@@ -14,7 +14,7 @@ export default function Logo33({
     <svg
       width={width}
       height={height}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox="0 0 418 78"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

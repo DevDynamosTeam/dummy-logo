@@ -1,3 +1,4 @@
+import React from "react";
 export default function Wordphress({
   width = "100",
   height = "21",

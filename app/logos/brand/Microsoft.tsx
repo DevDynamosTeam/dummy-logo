@@ -1,3 +1,4 @@
+import React from "react";
 export default function Microsoft({
   width = "250",
   height = "82",

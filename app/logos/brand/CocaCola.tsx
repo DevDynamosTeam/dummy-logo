@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function CocaCola({
   width = "200",
   height = "200",

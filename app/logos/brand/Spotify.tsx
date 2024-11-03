@@ -1,3 +1,4 @@
+import React from "react";
 export default function Spotify({
   width = "100",
   height = "32",
