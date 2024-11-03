@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function GoogleAnalytics({
   width = "100",
   height = "16",

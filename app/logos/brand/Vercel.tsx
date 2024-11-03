@@ -1,4 +1,6 @@
 import React from "react";
+import React from "react";
+
 export default function Vercel({
   width = "100",
   height = "23",

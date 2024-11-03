@@ -1,4 +1,3 @@
-import React from "react";
 export default function WebFlow({
   width = "250",
   height = "82",

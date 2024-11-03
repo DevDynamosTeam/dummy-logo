@@ -1,5 +1,7 @@
-import { data } from '@/app/data/data';
-import React, { useState, useEffect, useMemo } from 'react';
+import React from "react";
+
+import { data } from "@/app/data/data.js";
+import { useState, useEffect, useMemo } from "react";
 
 interface LogoItem {
   id: number;

@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Logo18({
   fill = "black",
   width = "245",

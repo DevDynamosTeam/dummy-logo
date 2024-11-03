@@ -1,4 +1,3 @@
-import React from "react";
 export default function Lenovo({
   width = "200",
   height = "200",

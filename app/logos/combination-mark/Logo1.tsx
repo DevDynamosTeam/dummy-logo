@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Logo1({ fill="black", stroke="black", width="264", height="174" } :{
   fill?: string
   stroke?: string

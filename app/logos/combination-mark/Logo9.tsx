@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Logo9({
   fill = "black",
   stroke = "black",

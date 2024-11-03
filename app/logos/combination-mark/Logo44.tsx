@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Logo44({
   fill = "#231F20",
   width = "229",

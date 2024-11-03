@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Logo35({
   fill = "black",
   width = "201",

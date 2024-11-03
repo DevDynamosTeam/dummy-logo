@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Printerest({
   width = "100",
   height = "25",

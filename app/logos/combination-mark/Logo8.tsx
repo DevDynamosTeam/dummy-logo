@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Logo8({
   fill = "black",
   stroke = "black",

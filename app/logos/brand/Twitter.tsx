@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Twitter({
   width = "58",
   height = "47",

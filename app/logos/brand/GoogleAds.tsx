@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function GoogleAds({
   width = "50",
   height = "46",
