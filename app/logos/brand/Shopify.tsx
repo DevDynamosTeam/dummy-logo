@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Shopify({
   width = "100",
   height = "29",

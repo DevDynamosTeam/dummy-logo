@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function UpWork({
   width = "102",
   height = "2280",

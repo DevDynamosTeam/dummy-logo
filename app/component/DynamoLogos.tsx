@@ -1,3 +1,5 @@
+import React from "react";
+
 import { data } from "@/app/data/data.js";
 import { useState, useEffect, useMemo } from "react";
 

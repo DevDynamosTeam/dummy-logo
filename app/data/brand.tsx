@@ -1,3 +1,5 @@
+import React from "react";
+
 import Adidas from "../logos/brand/Adidas";
 import Amazon from "../logos/brand/Amazon";
 import Airbnb from "../logos/brand/Airbnb";
@@ -58,6 +60,8 @@ export const brand = [
     category: "brand",
     name: "adidas",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 2,
@@ -65,6 +69,8 @@ export const brand = [
     category: "brand",
     name: "Amazon",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 3,
@@ -72,6 +78,8 @@ export const brand = [
     category: "brand",
     name: "airbnb",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 4,
@@ -79,6 +87,8 @@ export const brand = [
     category: "brand",
     name: "amazonweb",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 5,
@@ -86,6 +96,8 @@ export const brand = [
     category: "brand",
     name: "asus",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 6,
@@ -93,6 +105,8 @@ export const brand = [
     category: "brand",
     name: "bmw",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 7,
@@ -100,6 +114,8 @@ export const brand = [
     category: "brand",
     name: "bookingcom",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 8,
@@ -107,6 +123,8 @@ export const brand = [
     category: "brand",
     name: "britiscouncil",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 9,
@@ -114,6 +132,8 @@ export const brand = [
     category: "brand",
     name: "canva",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 10,
@@ -121,6 +141,8 @@ export const brand = [
     category: "brand",
     name: "cocacola",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 11,
@@ -128,6 +150,8 @@ export const brand = [
     category: "brand",
     name: "discord",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 12,
@@ -135,6 +159,8 @@ export const brand = [
     category: "brand",
     name: "dropbox",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 13,
@@ -142,6 +168,8 @@ export const brand = [
     category: "brand",
     name: "ebay",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 14,
@@ -149,6 +177,8 @@ export const brand = [
     category: "brand",
     name: "etsy",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 15,
@@ -156,6 +186,8 @@ export const brand = [
     category: "brand",
     name: "expedia",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 16,
@@ -163,6 +195,8 @@ export const brand = [
     category: "brand",
     name: "facebook",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 17,
@@ -170,6 +204,8 @@ export const brand = [
     category: "brand",
     name: "figma",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 18,
@@ -177,6 +213,8 @@ export const brand = [
     category: "brand",
     name: "fila",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 19,
@@ -184,6 +222,8 @@ export const brand = [
     category: "brand",
     name: "flipkart",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 20,
@@ -191,6 +231,8 @@ export const brand = [
     category: "brand",
     name: "gitbook",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 21,
@@ -198,6 +240,8 @@ export const brand = [
     category: "brand",
     name: "github",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 22,
@@ -205,6 +249,8 @@ export const brand = [
     category: "brand",
     name: "gitlab",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 23,
@@ -212,6 +258,8 @@ export const brand = [
     category: "brand",
     name: "godaddy",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 24,
@@ -219,6 +267,8 @@ export const brand = [
     category: "brand",
     name: "google",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 25,
@@ -226,6 +276,8 @@ export const brand = [
     category: "brand",
     name: "googleads",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 26,
@@ -233,6 +285,8 @@ export const brand = [
     category: "brand",
     name: "googleanalyics",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 27,
@@ -240,6 +294,8 @@ export const brand = [
     category: "brand",
     name: "goolefont",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 28,
@@ -247,6 +303,8 @@ export const brand = [
     category: "brand",
     name: "googleplay",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 29,
@@ -254,6 +312,8 @@ export const brand = [
     category: "brand",
     name: "gopro",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 30,
@@ -261,6 +321,8 @@ export const brand = [
     category: "brand",
     name: "heineken",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 31,
@@ -268,6 +330,8 @@ export const brand = [
     category: "brand",
     name: "honda",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 32,
@@ -275,6 +339,8 @@ export const brand = [
     category: "brand",
     name: "hondaauto",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 33,
@@ -282,6 +348,8 @@ export const brand = [
     category: "brand",
     name: "ibm",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 34,
@@ -289,6 +357,8 @@ export const brand = [
     category: "brand",
     name: "ipay",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 35,
@@ -296,6 +366,8 @@ export const brand = [
     category: "brand",
     name: "jquery",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 36,
@@ -303,6 +375,8 @@ export const brand = [
     category: "brand",
     name: "lenovo",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 37,
@@ -310,6 +384,8 @@ export const brand = [
     category: "brand",
     name: "linkedin",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 38,
@@ -317,6 +393,8 @@ export const brand = [
     category: "brand",
     name: "livechat",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 39,
@@ -324,6 +402,8 @@ export const brand = [
     category: "brand",
     name: "microsoft",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 40,
@@ -331,6 +411,8 @@ export const brand = [
     category: "brand",
     name: "netflix",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 41,
@@ -338,6 +420,8 @@ export const brand = [
     category: "brand",
     name: "netlify",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 42,
@@ -345,6 +429,8 @@ export const brand = [
     category: "brand",
     name: "paypal",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 43,
@@ -352,6 +438,8 @@ export const brand = [
     category: "brand",
     name: "postman",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 44,
@@ -359,6 +447,8 @@ export const brand = [
     category: "brand",
     name: "printerest",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 45,
@@ -366,6 +456,8 @@ export const brand = [
     category: "brand",
     name: "shopify",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 46,
@@ -373,6 +465,8 @@ export const brand = [
     category: "brand",
     name: "spotify",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 47,
@@ -380,6 +474,8 @@ export const brand = [
     category: "brand",
     name: "twitter",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 48,
@@ -387,6 +483,8 @@ export const brand = [
     category: "brand",
     name: "uber",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 49,
@@ -394,6 +492,8 @@ export const brand = [
     category: "brand",
     name: "upwork",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 50,
@@ -401,6 +501,8 @@ export const brand = [
     category: "brand",
     name: "vercel",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 51,
@@ -408,6 +510,8 @@ export const brand = [
     category: "brand",
     name: "webflow",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
   {
     id: 52,
@@ -415,5 +519,7 @@ export const brand = [
     category: "brand",
     name: "wordphress",
     color: "multicolor",
+    size: "small",
+    random: true,
   },
 ];

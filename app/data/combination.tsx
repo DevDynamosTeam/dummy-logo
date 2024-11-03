@@ -1,3 +1,5 @@
+import React from "react";
+
 import Logo1 from "../logos/combination-mark/Logo1";
 import Logo2 from "../logos/combination-mark/Logo2";
 import Logo3 from "../logos/combination-mark/Logo3";

@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Logo45({
   fill = "#212121",
   width = "244",

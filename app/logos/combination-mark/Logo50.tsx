@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Logo50({
   fill = "black",
   width = "262",
