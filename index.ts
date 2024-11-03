@@ -1,1 +1,1 @@
-export * from './app/component/DynamoLogos';
+export * from './app';
