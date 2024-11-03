@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Logo3({
   fill = "black",
   stroke = "black",

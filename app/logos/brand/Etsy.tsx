@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Etsy({
   width = "200",
   height = "200",

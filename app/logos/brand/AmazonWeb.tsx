@@ -1,3 +1,4 @@
+import React from "react";
 export default function AmazonWeb({
   width = "200",
   height = "200",

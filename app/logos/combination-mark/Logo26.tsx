@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Logo26({
   fill = "black",
   width = "283",

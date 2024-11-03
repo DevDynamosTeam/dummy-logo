@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function GitHub({
   width = "250",
   height = "82",

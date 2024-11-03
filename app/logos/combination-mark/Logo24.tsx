@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Logo24({
   fill = "black",
   width = "229",  

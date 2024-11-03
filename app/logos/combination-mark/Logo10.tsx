@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Logo10({
   fill = "black",
   stroke = "black",
