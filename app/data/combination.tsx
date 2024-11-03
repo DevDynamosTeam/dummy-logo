@@ -15,7 +15,7 @@ import Logo12 from "../logos/combination-mark/Logo12";
 import Logo13 from "../logos/combination-mark/Logo13";
 import Logo14 from "../logos/combination-mark/Logo14";
 import Logo15 from "../logos/combination-mark/Logo15";
-import Logo16 from "../logos/combination-mark/Logo16";
+import Logo16 from "../logos/combination-mark/Logo16"; 
 import Logo17 from "../logos/combination-mark/Logo17";
 import Logo18 from "../logos/combination-mark/Logo18";
 import Logo19 from "../logos/combination-mark/Logo19";
@@ -59,7 +59,7 @@ import Logo56 from "../logos/combination-mark/Logo56";
 import Logo57 from "../logos/combination-mark/Logo57";
 
 export const combinationMark = [
-    { id: 1,
+    { id: 1, 
       logo: <Logo1 />,
       category: "combination",
       name: "logo1",
@@ -67,7 +67,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 2,
+    { id: 2, 
       logo: <Logo2 />,
       category: "combination",
       name: "logo2",
@@ -75,8 +75,8 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-
-    { id: 3,
+    
+    { id: 3, 
       logo: <Logo3 />,
       category: "combination",
       name: "logo3",
@@ -84,7 +84,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 4,
+    { id: 4, 
       logo: <Logo4 />,
       category: "combination",
       name: "logo4",
@@ -92,7 +92,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 5,
+    { id: 5, 
       logo: <Logo5 />,
       category: "combination",
       name: "logo5",
@@ -100,7 +100,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 6,
+    { id: 6, 
       logo: <Logo6 />,
       category: "combination",
       name: "logo6",
@@ -108,7 +108,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 7,
+    { id: 7, 
       logo: <Logo7 />,
       category: "combination",
       name: "logo7",
@@ -116,7 +116,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 8,
+    { id: 8, 
       logo: <Logo8 />,
       category: "combination",
       name: "logo8",
@@ -124,7 +124,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 9,
+    { id: 9, 
       logo: <Logo9 />,
       category: "combination",
       name: "logo9",
@@ -132,7 +132,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 10,
+    { id: 10, 
       logo: <Logo10 />,
       category: "combination",
       name: "logo10",
@@ -140,7 +140,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 11,
+    { id: 11, 
       logo: <Logo11 />,
       category: "combination",
       name: "logo11",
@@ -148,7 +148,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 12,
+    { id: 12, 
       logo: <Logo12 />,
       category: "combination",
       name: "logo12",
@@ -156,7 +156,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 13,
+    { id: 13, 
       logo: <Logo13 />,
       category: "combination",
       name: "logo13",
@@ -164,7 +164,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 14,
+    { id: 14, 
       logo: <Logo14 />,
       category: "combination",
       name: "logo14",
@@ -172,7 +172,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 15,
+    { id: 15, 
       logo: <Logo15 />,
       category: "combination",
       name: "logo15",
@@ -180,7 +180,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 16,
+    { id: 16, 
       logo: <Logo16 />,
       category: "combination",
       name: "logo16",
@@ -188,7 +188,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 17,
+    { id: 17, 
       logo: <Logo17 />,
       category: "combination",
       name: "logo17",
@@ -196,7 +196,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 18,
+    { id: 18, 
       logo: <Logo18 />,
       category: "combination",
       name: "logo18",
@@ -204,7 +204,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 19,
+    { id: 19, 
       logo: <Logo19 />,
       category: "combination",
       name: "logo19",
@@ -212,7 +212,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 20,
+    { id: 20, 
       logo: <Logo20 />,
       category: "combination",
       name: "logo20",
@@ -220,7 +220,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 21,
+    { id: 21, 
       logo: <Logo21 />,
       category: "combination",
       name: "logo21",
@@ -228,7 +228,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 22,
+    { id: 22, 
       logo: <Logo22 />,
       category: "combination",
       name: "logo22",
@@ -236,7 +236,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 23,
+    { id: 23, 
       logo: <Logo23 />,
       category: "combination",
       name: "logo23",
@@ -244,7 +244,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 24,
+    { id: 24, 
       logo: <Logo24 />,
       category: "combination",
       name: "logo24",
@@ -252,7 +252,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 25,
+    { id: 25, 
       logo: <Logo25 />,
       category: "combination",
       name: "logo25",
@@ -260,7 +260,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 26,
+    { id: 26, 
       logo: <Logo26 />,
       category: "combination",
       name: "logo26",
@@ -268,7 +268,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 27,
+    { id: 27, 
       logo: <Logo27 />,
       category: "combination",
       name: "logo27",
@@ -276,7 +276,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 28,
+    { id: 28, 
       logo: <Logo28 />,
       category: "combination",
       name: "logo28",
@@ -284,7 +284,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 29,
+    { id: 29, 
       logo: <Logo29 />,
       category: "combination",
       name: "logo29",
@@ -292,7 +292,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 30,
+    { id: 30, 
       logo: <Logo30 />,
       category: "combination",
       name: "logo30",
@@ -300,7 +300,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 31,
+    { id: 31, 
       logo: <Logo31 />,
       category: "combination",
       name: "logo31",
@@ -308,7 +308,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 32,
+    { id: 32, 
       logo: <Logo32 />,
       category: "combination",
       name: "logo32",
@@ -316,7 +316,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 33,
+    { id: 33, 
       logo: <Logo33 />,
       category: "combination",
       name: "logo33",
@@ -324,7 +324,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 34,
+    { id: 34, 
       logo: <Logo34 />,
       category: "combination",
       name: "logo34",
@@ -332,7 +332,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 35,
+    { id: 35, 
       logo: <Logo35 />,
       category: "combination",
       name: "logo35",
@@ -340,7 +340,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 36,
+    { id: 36, 
       logo: <Logo36 />,
       category: "combination",
       name: "logo36",
@@ -348,7 +348,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 37,
+    { id: 37, 
       logo: <Logo37 />,
       category: "combination",
       name: "logo37",
@@ -356,7 +356,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 38,
+    { id: 38, 
       logo: <Logo38 />,
       category: "combination",
       name: "logo38",
@@ -364,7 +364,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 39,
+    { id: 39, 
       logo: <Logo39 />,
       category: "combination",
       name: "logo39",
@@ -372,7 +372,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 40,
+    { id: 40, 
       logo: <Logo40 />,
       category: "combination",
       name: "logo40",
@@ -380,7 +380,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 41,
+    { id: 41, 
       logo: <Logo41 />,
       category: "combination",
       name: "logo41",
@@ -388,7 +388,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 42,
+    { id: 42, 
       logo: <Logo42 />,
       category: "combination",
       name: "logo42",
@@ -396,7 +396,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 43,
+    { id: 43, 
       logo: <Logo43 />,
       category: "combination",
       name: "logo43",
@@ -404,7 +404,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 44,
+    { id: 44, 
       logo: <Logo44 />,
       category: "combination",
       name: "logo44",
@@ -412,7 +412,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 45,
+    { id: 45, 
       logo: <Logo45 />,
       category: "combination",
       name: "logo45",
@@ -420,7 +420,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 46,
+    { id: 46, 
       logo: <Logo46 />,
       category: "combination",
       name: "logo46",
@@ -428,7 +428,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 47,
+    { id: 47, 
       logo: <Logo47 />,
       category: "combination",
       name: "logo47",
@@ -436,7 +436,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 48,
+    { id: 48, 
       logo: <Logo48 />,
       category: "combination",
       name: "logo48",
@@ -444,7 +444,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 49,
+    { id: 49, 
       logo: <Logo49 />,
       category: "combination",
       name: "logo49",
@@ -452,7 +452,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 50,
+    { id: 50, 
       logo: <Logo50 />,
       category: "combination",
       name: "logo50",
@@ -460,7 +460,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 51,
+    { id: 51, 
       logo: <Logo51 />,
       category: "combination",
       name: "logo51",
@@ -468,7 +468,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 52,
+    { id: 52, 
       logo: <Logo52 />,
       category: "combination",
       name: "logo52",
@@ -476,7 +476,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 53,
+    { id: 53, 
       logo: <Logo53 />,
       category: "combination",
       name: "logo53",
@@ -484,7 +484,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 54,
+    { id: 54, 
       logo: <Logo54 />,
       category: "combination",
       name: "logo54",
@@ -492,7 +492,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 55,
+    { id: 55, 
       logo: <Logo55 />,
       category: "combination",
       name: "logo55",
@@ -500,7 +500,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 56,
+    { id: 56, 
       logo: <Logo56 />,
       category: "combination",
       name: "logo56",
@@ -508,7 +508,7 @@ export const combinationMark = [
       size: "small",
       random: true
     },
-    { id: 57,
+    { id: 57, 
       logo: <Logo57 />,
       category: "combination",
       name: "logo57",
