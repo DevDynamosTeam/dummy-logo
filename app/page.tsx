@@ -1,10 +1,11 @@
 "use client";
-import HomePage from "./home/page";
+import { DynamoLogos } from "./component";
+// import HomePage from "./home/page";
 
 export default function Home() {
   return (
     <div className="">
-      <HomePage/>
+      <DynamoLogos category="combination" width="100" height="100" fill="red" stroke="blue" />
     </div>
   );
 }

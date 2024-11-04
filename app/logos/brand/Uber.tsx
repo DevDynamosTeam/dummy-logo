@@ -3,12 +3,15 @@ import React from "react";
 export default function Uber({
   width = "87",
   height = "30",
+  className = "",
 }: {
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox='0 0 87 30'

@@ -4,14 +4,17 @@ export default function Logo45({
   fill = "#212121",
   width = "244",
   height = "195",
+  className,
 }: {
   fill?: string;
   stroke?: string;
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox="0 0 244 195"

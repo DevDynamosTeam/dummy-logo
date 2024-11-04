@@ -3,12 +3,15 @@ import React from "react";
 export default function FaceBook({
   width = "100",
   height = "21",
+  className,
 }: {
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox='0 0 100 21'

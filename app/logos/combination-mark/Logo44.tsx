@@ -5,14 +5,17 @@ export default function Logo44({
   width = "229",
   height = "68",
   stroke = "#D9D9D9",
+  className = "",
 }: {
   fill?: string;
   stroke?: string;
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox="0 0 229 68"

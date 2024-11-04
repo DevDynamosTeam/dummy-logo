@@ -2,12 +2,15 @@ import React from 'react'
 export default function UpWork({
   width = "102",
   height = "280",
+  className = "",
 }: {
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox='0 0 102 280'

@@ -3,12 +3,15 @@ import React from "react";
 export default function Netlify({
   width = "100",
   height = "27",
+  className = "",
 }: {
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox='0 0 100 27'

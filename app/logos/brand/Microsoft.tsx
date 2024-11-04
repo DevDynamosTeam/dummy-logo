@@ -2,12 +2,15 @@ import React from "react";
 export default function Microsoft({
   width = "250",
   height = "82",
+  className = "",
 }: {
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox='0 0 250 82'

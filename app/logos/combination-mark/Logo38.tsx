@@ -4,14 +4,17 @@ export default function Logo38({
   fill = "black",
   width = "310",
   height = "66",
+  className
 }: {
   fill?: string;
   stroke?: string;
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox="0 0 310 66"

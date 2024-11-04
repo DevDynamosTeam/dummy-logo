@@ -5,15 +5,18 @@ export default function Logo22(
     fill = "black",
     width = "203",
     height = "54",
+    className
   }: {
     fill?: string;
     stroke?: string;
     width?: string;
     height?: string;
+    className?: string;
   }
 ) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox="0 0 203 54"

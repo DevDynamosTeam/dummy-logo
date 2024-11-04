@@ -6,15 +6,18 @@ export default function Logo32(
     width = "202",
     height = "62",
     stroke = "black",
+    className = "",
   }: {
     fill?: string;
     stroke?: string;
     width?: string;
     height?: string;
+    className?: string;
   }
 ) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox="0 0 202 62"

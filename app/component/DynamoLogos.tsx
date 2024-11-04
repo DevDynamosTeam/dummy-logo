@@ -1,6 +1,6 @@
 import React from "react";
 
-import { data } from "@/app/data/data.js";
+import { data } from "@/app/data/data";
 import { useState, useEffect, useMemo } from "react";
 
 interface LogoItem {
@@ -9,8 +9,6 @@ interface LogoItem {
   category: string;
   name: string;
   color: string;
-  size: string;
-  random: boolean;
 }
 
 export default function DynamoLogos({
@@ -18,12 +16,21 @@ export default function DynamoLogos({
   color,
   name,
   random,
+  fill,
+  stroke,
+  width,
+  height,
+  className,
 }: {
   category?: string;
   color?: string;
   name?: string;
-  size?: string;
   random?: boolean;
+  fill?: string;
+  stroke?: string;
+  width?: string;
+  height?: string;
+  className?: string;
 }) {
   const items = data;
   const [displayItem, setDisplayItem] = useState<LogoItem | null>();
@@ -65,7 +72,14 @@ export default function DynamoLogos({
 
   return (
     <div className="grid grid-cols-1 items-center justify-center">
-      {displayItem && <>{displayItem.logo}</>}
+      {displayItem &&
+        React.cloneElement(displayItem.logo, {
+          fill,
+          stroke,
+          width,
+          height,
+          className,
+        })}
     </div>
   );
 }

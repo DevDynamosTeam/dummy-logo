@@ -4,14 +4,17 @@ export default function Logo16({
   fill = "black",
   width = "215",
   height = "70",
+  className,
 }: {
   fill?: string;
   stroke?: string;
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox="0 0 215 70"

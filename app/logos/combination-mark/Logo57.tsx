@@ -5,14 +5,17 @@ export default function Logo57({
   width = "275",
   height = "86",
   stroke = "black",
+  className,
 }: {
   fill?: string;
   stroke?: string;
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox="0 0 275 86"

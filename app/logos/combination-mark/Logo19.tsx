@@ -4,14 +4,17 @@ export default function Logo19({
   fill = "black",
   width = "407",
   height = "89",
+  className = "",
 }: {
   fill?: string;
   stroke?: string;
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox="0 0 407 89"

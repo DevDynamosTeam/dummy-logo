@@ -2,15 +2,18 @@ import React from "react";
 export default function Asus({
   width = "200",
   height = "200",
+  className = "",
 }: {
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
-      viewBox='0 0 800 800'
+      viewBox="0 0 800 800"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

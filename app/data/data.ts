@@ -1,5 +1,5 @@
-import { combinationMark } from './combination.jsx';
-import { brand } from './brand.jsx';
+import { combinationMark } from './combination';
+import { brand } from './brand';
 
 export const data = [
     ...combinationMark, 

@@ -5,14 +5,17 @@ export default function Logo21({
   width = "281",
   height = "68",
   stroke = "black",
+  className = "",
 }: {
   fill?: string;
   stroke?: string;
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox="0 0 281 68"

@@ -5,14 +5,17 @@ export default function Logo20({
   width = "199",
   height = "42",
   stroke = "black",
+  className,
 }: {
   fill?: string;
   stroke?: string;
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox="0 0 199 42"

@@ -1,12 +1,15 @@
 export default function Lenovo({
   width = "200",
   height = "200",
+  className = "",
 }: {
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
       viewBox='0 0 800 800'

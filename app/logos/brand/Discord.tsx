@@ -2,15 +2,18 @@ import React from "react";
 export default function Discord({
   width = "100",
   height = "20",
+  className = "",
 }: {
   width?: string;
   height?: string;
+  className?: string;
 }) {
   return (
     <svg
+      className={className}
       width={width}
       height={height}
-      viewBox='0 0 100 20'
+      viewBox="0 0 100 20"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -54,7 +57,7 @@ export default function Discord({
       </g>
       <defs>
         <clipPath id="clip0_401_2754">
-          <rect width='100' height='20' fill="white" />
+          <rect width="100" height="20" fill="white" />
         </clipPath>
       </defs>
     </svg>
