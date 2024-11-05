@@ -58,13 +58,14 @@ export default function Home() {
           {/* logo catalog  */}
           <div className="mt-10">
             <div className="border border-gray-200 rounded-md">
-              <div className="flex justify-between">
-                <div className="border-r border-gray-200 w-1/2">
+              <div className="grid md:grid-cols-2 justify-between">
+
+                <div className="border-r border-gray-200">
                   <h4 className="text-lg font-semibold border-b border-gray-200 p-5">
                     Brand
                   </h4>
 
-                  <div className="flex justify-between p-5">
+                  <div className="grid grid-cols-4 justify-between p-5 border-b">
                     <h4>Logo</h4>
                     <h4>Category</h4>
                     <h4>Name</h4>
@@ -75,7 +76,7 @@ export default function Home() {
                     {brand.map((item) => (
                       <div
                         key={item.id}
-                        className="p-5 border-b border-gray-200 flex items-center justify-between"
+                        className="p-5 border-b border-gray-200 grid grid-cols-4 items-center justify-between"
                       >
                         <span className="">{item.logo}</span>
                         <p className=" text-gray-500 font-semibold text-start">
@@ -92,23 +93,23 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="border-r border-gray-200 w-1/2">
+                <div className="border-gray-200">
                   <h4 className="text-lg font-semibold border-b border-gray-200 p-5">
                     Combination
                   </h4>
 
-                  <div className="flex justify-between p-3">
-                    <h4>Logo</h4>
-                    <h4>Category</h4>
-                    <h4>Name</h4>
-                    <h4>Color</h4>
+                  <div className="grid grid-cols-4 justify-between p-5 border-b">
+                    <h4 className="text-gray-900">Logo</h4>
+                    <h4 className="text-gray-900">Category</h4>
+                    <h4 className="text-gray-900">Name</h4>
+                    <h4 className="text-gray-900">Color</h4>
                   </div>
 
                   <div className="">
                     {combinationMark.map((item) => (
                       <div
                         key={item.id}
-                        className="p-5 border-b border-gray-200 flex items-center justify-between"
+                        className="p-5 border-b border-gray-200 grid grid-cols-4 items-center justify-between"
                       >
                         <span className="">{item.logo}</span>
                         <p className=" text-gray-500 font-semibold text-start">
