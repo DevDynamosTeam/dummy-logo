@@ -3,8 +3,8 @@ import React from "react";
 export default function Logo13({
   fill = "black",
   stroke = "black",
-  width = "234",
-  height = "62",
+  width = "100",
+  height = "50",
   className,
 }: {
   fill?: string;

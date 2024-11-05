@@ -3,8 +3,8 @@ import React from "react";
 export default function Logo31(
   {
     fill = "black",
-    width = "157",
-    height = "49",
+    width = "100",
+    height = "50",
     className
   }: {
     fill?: string;

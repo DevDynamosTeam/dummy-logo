@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Logo53({
   fill = "black",
-  width = "173",
+  width = "100",
   height = "51",
   className
 }: {

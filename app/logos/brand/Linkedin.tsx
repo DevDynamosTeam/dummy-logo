@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Linkedin({
   width = "100",
-  height = "16",
+  height = "28",
   className = "",
 }: {
   width?: string;
@@ -13,8 +13,8 @@ export default function Linkedin({
     <svg
       className={className}
       width={width}
-      height={height}     
-      viewBox="0 0 100 26"
+      height={height}
+      viewBox="0 0 102 26"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

@@ -3,22 +3,23 @@ import React from "react";
 import Adidas from "../logos/brand/Adidas";
 import Amazon from "../logos/brand/Amazon";
 import Airbnb from "../logos/brand/Airbnb";
-import AmazonWeb from "../logos/brand/AmazonWeb";
-import Asus from "../logos/brand/Asus";
-import Bmw from "../logos/brand/Bmw";
-import BookingCom from "../logos/brand/BookingCom";
-import BritisCouncil from "../logos/brand/BritisCouncil";
+import Adobe from "../logos/brand/Adobe";
+import OnePassword from "../logos/brand/OnePassword";
+import BetterUptime from "../logos/brand/BetterUptime";
+import BaseCamp from "../logos/brand/BaseCamp";
+import Bitbucket from "../logos/brand/Bitbucket";
 import Canva from "../logos/brand/Canva";
-import CocaCola from "../logos/brand/CocaCola";
+import ClickUp from "../logos/brand/ClickUp";
+import CloudFlare from "../logos/brand/CloudFlare";
+import Docker from "../logos/brand/Docker";
 import Discord from "../logos/brand/Discord";
 import DropBox from "../logos/brand/DropBox";
 import Ebay from "../logos/brand/Ebay";
-import Etsy from "../logos/brand/Etsy";
 import Expedia from "../logos/brand/Expedia";
 import Facebook from "../logos/brand/Facebook";
+import Feedly from "../logos/brand/Feedly";
 import Figma from "../logos/brand/Figma";
-import Fila from "../logos/brand/Fila";
-import Flipkart from "../logos/brand/Flipkart";
+import Fathom from "../logos/brand/Fathom";
 import GitBook from "../logos/brand/GitBook";
 import GitHub from "../logos/brand/GitHub";
 import GitLab from "../logos/brand/GitLab";
@@ -27,15 +28,15 @@ import Google from "../logos/brand/Google";
 import GoogleAds from "../logos/brand/GoogleAds";
 import GoogleAnalytics from "../logos/brand/GoogleAnalytics";
 import GoogleFonts from "../logos/brand/GoogleFonts";
-import GooglePlay from "../logos/brand/GooglePay";
-import GoPro from "../logos/brand/GoPro";
-import Heineken from "../logos/brand/Heineken";
-import Honda from "../logos/brand/Honda";
-import HondaAuto from "../logos/brand/HondaAuto";
+import Grammarly from "../logos/brand/Grammarly";
+import Gem from "../logos/brand/Gem";
+import HubSpot from "../logos/brand/HubSpot";
+import Hopin from "../logos/brand/Hopin";
+import HotJar from "../logos/brand/HotJar";
 import Ibm from "../logos/brand/Ibm";
-import Ipay from "../logos/brand/IPay";
-import Jquery from "../logos/brand/Jquery";
-import Lenovo from "../logos/brand/Lenovo";
+import Inside from "../logos/brand/Inside";
+import JiraSoftware from "../logos/brand/JiraSoftware";
+import LiveStorm from "../logos/brand/LiveStorm";
 import Linkedin from "../logos/brand/Linkedin";
 import LiveChat from "../logos/brand/LiveChat";
 import Microsoft from "../logos/brand/Microsoft";
@@ -52,6 +53,7 @@ import Upwork from "../logos/brand/Upwork";
 import Vercel from "../logos/brand/Vercel";
 import Webflow from "../logos/brand/Webflow";
 import Wordphress from "../logos/brand/Wordphress";
+import Wix from "../logos/brand/wix";
 
 export const brand = [
   {
@@ -65,7 +67,7 @@ export const brand = [
     id: 2,
     logo: <Amazon />,
     category: "brand",
-    name: "Amazon",
+    name: "amazon",
     color: "multicolor",
   },
   {
@@ -77,37 +79,37 @@ export const brand = [
   },
   {
     id: 4,
-    logo: <AmazonWeb />,
+    logo: <Adobe />,
     category: "brand",
-    name: "amazonweb",
+    name: "adobe",
     color: "multicolor",
   },
   {
     id: 5,
-    logo: <Asus />,
+    logo: <OnePassword />,
     category: "brand",
-    name: "asus",
+    name: "1Password",
     color: "multicolor",
   },
   {
     id: 6,
-    logo: <Bmw />,
+    logo: <BetterUptime />,
     category: "brand",
-    name: "bmw",
+    name: "betteruptime",
     color: "multicolor",
   },
   {
     id: 7,
-    logo: <BookingCom />,
+    logo: <BaseCamp />,
     category: "brand",
-    name: "bookingcom",
+    name: "basecamp",
     color: "multicolor",
   },
   {
     id: 8,
-    logo: <BritisCouncil />,
+    logo: <Bitbucket />,
     category: "brand",
-    name: "britiscouncil",
+    name: "bitbucket",
     color: "multicolor",
   },
   {
@@ -119,39 +121,40 @@ export const brand = [
   },
   {
     id: 10,
-    logo: <CocaCola />,
+    logo: <ClickUp />,
     category: "brand",
-    name: "cocacola",
+    name: "clickup",
     color: "multicolor",
   },
   {
     id: 11,
+    logo: <CloudFlare />,
+    category: "brand",
+    name: "cloudFlare",
+    color: "multicolor",
+  },
+  {
+    id: 12,
     logo: <Discord />,
     category: "brand",
     name: "discord",
     color: "multicolor",
   },
   {
-    id: 12,
+    id: 13,
     logo: <DropBox />,
     category: "brand",
     name: "dropbox",
     color: "multicolor",
   },
   {
-    id: 13,
+    id: 14,
     logo: <Ebay />,
     category: "brand",
     name: "ebay",
     color: "multicolor",
   },
-  {
-    id: 14,
-    logo: <Etsy />,
-    category: "brand",
-    name: "etsy",
-    color: "multicolor",
-  },
+
   {
     id: 15,
     logo: <Expedia />,
@@ -175,16 +178,16 @@ export const brand = [
   },
   {
     id: 18,
-    logo: <Fila />,
+    logo: <Feedly />,
     category: "brand",
-    name: "fila",
+    name: "feedly",
     color: "multicolor",
   },
   {
     id: 19,
-    logo: <Flipkart />,
+    logo: <Fathom />,
     category: "brand",
-    name: "flipkart",
+    name: "fathom",
     color: "multicolor",
   },
   {
@@ -245,37 +248,37 @@ export const brand = [
   },
   {
     id: 28,
-    logo: <GooglePlay />,
+    logo: <Grammarly />,
     category: "brand",
-    name: "googleplay",
+    name: "grammarly",
     color: "multicolor",
   },
   {
     id: 29,
-    logo: <GoPro />,
+    logo: <Gem />,
     category: "brand",
-    name: "gopro",
+    name: "gem",
     color: "multicolor",
   },
   {
     id: 30,
-    logo: <Heineken />,
+    logo: <HubSpot />,
     category: "brand",
-    name: "heineken",
+    name: "hubspot",
     color: "multicolor",
   },
   {
     id: 31,
-    logo: <Honda />,
+    logo: <Hopin />,
     category: "brand",
-    name: "honda",
+    name: "hopin",
     color: "multicolor",
   },
   {
     id: 32,
-    logo: <HondaAuto />,
+    logo: <HotJar />,
     category: "brand",
-    name: "hondaauto",
+    name: "hotjar",
     color: "multicolor",
   },
   {
@@ -287,23 +290,23 @@ export const brand = [
   },
   {
     id: 34,
-    logo: <Ipay />,
+    logo: <Inside />,
     category: "brand",
-    name: "ipay",
+    name: "inside",
     color: "multicolor",
   },
   {
     id: 35,
-    logo: <Jquery />,
+    logo: <JiraSoftware />,
     category: "brand",
-    name: "jquery",
+    name: "jirasoftware",
     color: "multicolor",
   },
   {
     id: 36,
-    logo: <Lenovo />,
+    logo: <LiveStorm />,
     category: "brand",
-    name: "lenovo",
+    name: "livestorm",
     color: "multicolor",
   },
   {
@@ -418,6 +421,20 @@ export const brand = [
     logo: <Wordphress />,
     category: "brand",
     name: "wordphress",
+    color: "multicolor",
+  },
+  {
+    id: 53,
+    logo: <Wix />,
+    category: "brand",
+    name: "wordphress",
+    color: "multicolor",
+  },
+  {
+    id: 54,
+    logo: <Docker />,
+    category: "brand",
+    name: "docker",
     color: "multicolor",
   },
 ];

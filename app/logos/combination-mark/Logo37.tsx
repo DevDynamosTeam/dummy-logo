@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Logo37({
   fill = "black",
-  width = "175",
-  height = "81",
+  width = "80",
+  height = "60",
   className,
 }: {
   fill?: string;
@@ -17,11 +17,11 @@ export default function Logo37({
       className={className}
       width={width}
       height={height}
-      viewBox="0 0 81 81"
+      viewBox="0 0 175 81"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_209_362)">
+      <g clip-path="url(#clip0_209_173)">
         <path
           d="M12.9276 52.7472L25.1586 40.5L12.9276 28.269L5.6052 20.9466L0 0V81L5.6052 60.0696L12.9276 52.7472Z"
           fill={fill}
@@ -44,7 +44,7 @@ export default function Logo37({
         fill={fill}
       />
       <defs>
-        <clipPath id="clip0_209_362">
+        <clipPath id="clip0_209_173">
           <rect width="81" height="81" fill="white" />
         </clipPath>
       </defs>

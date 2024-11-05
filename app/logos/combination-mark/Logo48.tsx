@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Logo48({
   fill = "black",
-  width = "298",
-  height = "81",
+  width = "100",
+  height = "51",
   stroke = "black",
   className = "",
 }: {

@@ -1,7 +1,7 @@
 import React from "react";
 export default function Canva({
-  width = "100",
-  height = "50",
+  width = "50",
+  height = "16",
   className = "",
 }: {
   width?: string;
@@ -13,7 +13,7 @@ export default function Canva({
       className={className}
       width={width}
       height={height}
-      viewBox='0 0 100 50'
+      viewBox="0 0 50 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -37,7 +37,7 @@ export default function Canva({
           <stop offset="1" stop-color="#7225E3" />
         </linearGradient>
         <clipPath id="clip0_401_3017">
-          <rect width='100' height='50' fill="white" />
+          <rect width="50" height="15.9314" fill="white" />
         </clipPath>
       </defs>
     </svg>

@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 export default function UpWork({
   width = "102",
-  height = "280",
+  height = "28",
   className = "",
 }: {
   width?: string;
@@ -9,11 +9,11 @@ export default function UpWork({
   className?: string;
 }) {
   return (
-    <svg
+    <svg 
       className={className}
       width={width}
       height={height}
-      viewBox='0 0 102 280'
+      viewBox="0 0 102 28"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -41,7 +41,7 @@ export default function UpWork({
       </g>
       <defs>
         <clipPath id="clip0_401_273">
-          <rect width='102' height='280' fill="white" />
+          <rect width="102" height="28" fill="white" />
         </clipPath>
       </defs>
     </svg>

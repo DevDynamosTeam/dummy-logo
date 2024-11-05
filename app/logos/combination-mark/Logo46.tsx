@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Logo46({
   fill = "black",
-  width = "371",
-  height = "122",
+  width = "111",
+  height = "50",
   stroke = "#333333",
   className,
 }: {
@@ -18,7 +18,7 @@ export default function Logo46({
       className={className}
       width={width}
       height={height}
-      viewBox="0 0 111 122"
+      viewBox="0 0 371 122"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

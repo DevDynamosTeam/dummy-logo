@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Logo45({
   fill = "#212121",
-  width = "244",
-  height = "195",
+  width = "50",
+  height = "50",
   className,
 }: {
   fill?: string;

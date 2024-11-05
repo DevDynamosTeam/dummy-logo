@@ -59,26 +59,67 @@ export default function Home() {
           <div className="mt-10">
             <div className="border border-gray-200 rounded-md">
               <div className="flex justify-between">
-                <div className="p-5 border-r border-gray-200 w-1/2">
-                  <h4 className="text-lg font-semibold">Abstract</h4>
+                <div className="border-r border-gray-200 w-1/2">
+                  <h4 className="text-lg font-semibold border-b border-gray-200 p-5">
+                    Brand
+                  </h4>
+
+                  <div className="flex justify-between p-5">
+                    <h4>Logo</h4>
+                    <h4>Category</h4>
+                    <h4>Name</h4>
+                    <h4>Color</h4>
+                  </div>
 
                   <div className="">
                     {brand.map((item) => (
-                      <div key={item.id} className="">
-                        <span className="max-w-[100px] h-[100px]">{item.logo}</span>
-                        <p className="text-center">{item.name}</p>
+                      <div
+                        key={item.id}
+                        className="p-5 border-b border-gray-200 flex items-center justify-between"
+                      >
+                        <span className="">{item.logo}</span>
+                        <p className=" text-gray-500 font-semibold text-start">
+                          {item.category}
+                        </p>
+                        <p className=" text-gray-500 font-semibold text-start">
+                          {item.name}
+                        </p>
+                        <p className=" text-gray-500 font-semibold text-start">
+                          {item.color}
+                        </p>
                       </div>
                     ))}
                   </div>
                 </div>
-                <div className="p-5 border-r border-gray-200 w-1/2">
-                  <h4 className="text-lg font-semibold">Abstract</h4>
+
+                <div className="border-r border-gray-200 w-1/2">
+                  <h4 className="text-lg font-semibold border-b border-gray-200 p-5">
+                    Combination
+                  </h4>
+
+                  <div className="flex justify-between p-3">
+                    <h4>Logo</h4>
+                    <h4>Category</h4>
+                    <h4>Name</h4>
+                    <h4>Color</h4>
+                  </div>
 
                   <div className="">
                     {combinationMark.map((item) => (
-                      <div key={item.id} className="flex gap-5">
-                        <span className="max-w-[100px] h-[100px]">{item.logo}</span>
-                        <p className="text-center">{item.name}</p>
+                      <div
+                        key={item.id}
+                        className="p-5 border-b border-gray-200 flex items-center justify-between"
+                      >
+                        <span className="">{item.logo}</span>
+                        <p className=" text-gray-500 font-semibold text-start">
+                          {item.category}
+                        </p>
+                        <p className=" text-gray-500 font-semibold text-start">
+                          {item.name}
+                        </p>
+                        <p className=" text-gray-500 font-semibold text-start">
+                          {item.color}
+                        </p>
                       </div>
                     ))}
                   </div>
@@ -87,6 +128,11 @@ export default function Home() {
             </div>
           </div>
           {/* logo catalog  */}
+
+
+          <div className="mx-auto text-center mt-10 max-w-2xl">
+            <p>Created By Dyanmo UI </p>
+          </div>
         </div>
       </section>
     </div>

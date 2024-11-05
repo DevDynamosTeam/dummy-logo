@@ -3,8 +3,8 @@ import React from "react";
 export default function Logo9({
   fill = "black",
   stroke = "black",
-  width = "299",
-  height = "71",
+  width = "100",
+  height = "50",
   className,
 }: {
   fill?: string;
@@ -18,7 +18,7 @@ export default function Logo9({
       className={className}
       width={width}
       height={height}
-      viewBox="0 0 104 71"
+      viewBox="0 0 299 71"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Logo43({
   fill = "black",
-  width = "206",
-  height = "74",
+  width = "100",
+  height = "35",
   stroke = "black",
   className = "",
 }: {

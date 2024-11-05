@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Logo54({
   fill = "black",
-  width = "234",
+  width = "100",
   height = "64",
   stroke = "black",
   className = "",

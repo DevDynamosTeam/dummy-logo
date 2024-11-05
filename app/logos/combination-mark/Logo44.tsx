@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Logo44({
   fill = "#231F20",
-  width = "229",
+  width = "100",
   height = "68",
   stroke = "#D9D9D9",
   className = "",
