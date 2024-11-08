@@ -4,15 +4,16 @@
   "private": false,
   "author": "The Dev Dynamos",
   "license": "Apache License 2.0",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
   "types": "./dist/index.d.ts",
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build-tsup": "tsup",
+    "build-tsup": "tsup index.ts",
     "lint-tsc": "tsc"
   },
   "dependencies": {
