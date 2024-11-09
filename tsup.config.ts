@@ -9,4 +9,6 @@ export default defineConfig({
   shims: true,
   jsxFactory: 'React.createElement',
   jsxFragment: 'React.Fragment',
+  minify: true,
+  sourcemap: true,
 });
