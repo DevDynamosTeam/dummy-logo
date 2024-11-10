@@ -130,7 +130,7 @@ export default function Home() {
           {/* logo catalog  */}
 
           <div className="mx-auto text-center mt-10 max-w-2xl">
-            <p>Created By Dyanmo UI </p>
+            <p>Product of Dev Dynamos</p>
           </div>
         </div>
       </section>
