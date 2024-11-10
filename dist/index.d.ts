@@ -1,4 +1,4 @@
-import * as react_jsx_runtime from 'react/jsx-runtime';
+import React from 'react';
 
 declare function DynamoLogos({ category, color, name, random, fill, stroke, width, height, className, }: {
     category?: string;
@@ -10,6 +10,6 @@ declare function DynamoLogos({ category, color, name, random, fill, stroke, widt
     width?: string;
     height?: string;
     className?: string;
-}): react_jsx_runtime.JSX.Element;
+}): React.JSX.Element;
 
 export { DynamoLogos };
