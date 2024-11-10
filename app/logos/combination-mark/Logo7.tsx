@@ -29,16 +29,16 @@ export default function Logo7({
       <path
         d="M78 42.3889V48.8667C78 53.8138 78 56.2874 77.0372 58.1769C76.1903 59.839 74.839 61.1903 73.1769 62.0372C71.2874 63 68.8138 63 63.8667 63H57.3889M45.6111 10H39.1333C34.1862 10 31.7126 10 29.8231 10.9628C28.161 11.8097 26.8097 13.161 25.9628 14.8231C25 16.7126 25 19.1862 25 24.1333V30.6111M64.5341 23.4659L78 10M78 10H60.3333M78 10V27.6667M34.54 53.46L25 63M25 63H42.6667M25 63L25 45.3333"
         stroke={stroke}
-        stroke-width="3"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M42.1515 31.6842H42V28.6316C42 24.4168 45.3579 21 49.5 21C53.6421 21 57 24.4168 57 28.6316V31.6842H56.8485M49.5 37.7895V40.8421M60 39.3158C60 45.2165 55.299 50 49.5 50C43.701 50 39 45.2165 39 39.3158C39 33.4151 43.701 28.6316 49.5 28.6316C55.299 28.6316 60 33.4151 60 39.3158Z"
         stroke={stroke}
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

@@ -70,8 +70,8 @@ export default function Bitbucket({
           y2="12.4985"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.18" stop-color="#0052CC" />
-          <stop offset="1" stop-color="#2684FF" />
+          <stop offset="0.18" stopColor="#0052CC" />
+          <stop offset="1" stopColor="#2684FF" />
         </linearGradient>
       </defs>
     </svg>

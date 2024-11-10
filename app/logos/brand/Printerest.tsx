@@ -18,7 +18,7 @@ export default function Printerest({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_401_1416)">
+      <g clipPath="url(#clip0_401_1416)">
         <path
           d="M39.3857 8.80688H42.5437V18.726H39.3857V8.80688Z"
           fill="#E60023"

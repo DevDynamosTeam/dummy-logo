@@ -1,6 +1,6 @@
-import React from "react";
-import { combinationMark } from "../data/combination";
-import { brand } from "../data/brand";
+import React from 'react';
+import { combinationMark } from '../data/combination';
+import { brand } from '../data/brand';
 export default function Home() {
   return (
     <div className="bg-white h-screen">
@@ -27,7 +27,7 @@ export default function Home() {
               Our Features
             </h3>
             <div className="grid md:grid-cols-3 gap-10">
-              <div className="p-6 rounded-md bg-slate-400 text-center">
+              <div className="p-6 rounded-3xl bg-slate-200 text-center">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   Random Logo
                 </h3>
@@ -35,7 +35,7 @@ export default function Home() {
                   Get random logo from a huge collection of royalty free logo
                 </p>
               </div>
-              <div className="p-6 rounded-md bg-slate-400 text-center">
+              <div className="p-6 rounded-3xl bg-slate-200 text-center">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   Filter by Category
                 </h3>
@@ -43,7 +43,7 @@ export default function Home() {
                   Filter the logo by category
                 </p>
               </div>
-              <div className="p-6 rounded-md bg-slate-400 text-center">
+              <div className="p-6 rounded-3xl bg-slate-200 text-center">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   Get Specific Logo by Name
                 </h3>
@@ -59,7 +59,6 @@ export default function Home() {
           <div className="mt-10">
             <div className="border border-gray-200 rounded-md">
               <div className="grid md:grid-cols-2 justify-between">
-
                 <div className="border-r border-gray-200">
                   <h4 className="text-lg font-semibold border-b border-gray-200 p-5">
                     Brand
@@ -72,25 +71,25 @@ export default function Home() {
                     <h4>Color</h4>
                   </div>
 
-                  <div className="">
-                    {brand.map((item) => (
-                      <div
-                        key={item.id}
-                        className="p-5 border-b border-gray-200 grid grid-cols-4 items-center justify-between"
-                      >
-                        <span className="">{item.logo}</span>
-                        <p className=" text-gray-500 font-semibold text-start">
-                          {item.category}
-                        </p>
-                        <p className=" text-gray-500 font-semibold text-start">
-                          {item.name}
-                        </p>
-                        <p className=" text-gray-500 font-semibold text-start">
-                          {item.color}
-                        </p>
-                      </div>
-                    ))}
-                  </div>
+                  {brand.map((item) => (
+                    <div
+                      key={item.id}
+                      className="p-5 border-b border-gray-200 grid grid-cols-4 items-center justify-between"
+                    >
+                      <span className="w-[100px] h-[50px] flex justify-center items-center">
+                        {item.logo}
+                      </span>
+                      <p className=" text-gray-500 font-semibold text-start">
+                        {item.category}
+                      </p>
+                      <p className=" text-gray-500 font-semibold text-start">
+                        {item.name}
+                      </p>
+                      <p className=" text-gray-500 font-semibold text-start">
+                        {item.color}
+                      </p>
+                    </div>
+                  ))}
                 </div>
 
                 <div className="border-gray-200">
@@ -105,31 +104,30 @@ export default function Home() {
                     <h4 className="text-gray-900">Color</h4>
                   </div>
 
-                  <div className="">
-                    {combinationMark.map((item) => (
-                      <div
-                        key={item.id}
-                        className="p-5 border-b border-gray-200 grid grid-cols-4 items-center justify-between"
-                      >
-                        <span className="">{item.logo}</span>
-                        <p className=" text-gray-500 font-semibold text-start">
-                          {item.category}
-                        </p>
-                        <p className=" text-gray-500 font-semibold text-start">
-                          {item.name}
-                        </p>
-                        <p className=" text-gray-500 font-semibold text-start">
-                          {item.color}
-                        </p>
-                      </div>
-                    ))}
-                  </div>
+                  {combinationMark.map((item) => (
+                    <div
+                      key={item.id}
+                      className="p-5 border-b border-gray-200 grid grid-cols-4 items-center justify-between"
+                    >
+                      <span className="w-[100px] h-[50px] flex justify-center items-center">
+                        {item.logo}
+                      </span>
+                      <p className=" text-gray-500 font-semibold text-start">
+                        {item.category}
+                      </p>
+                      <p className=" text-gray-500 font-semibold text-start">
+                        {item.name}
+                      </p>
+                      <p className=" text-gray-500 font-semibold text-start">
+                        {item.color}
+                      </p>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
           </div>
           {/* logo catalog  */}
-
 
           <div className="mx-auto text-center mt-10 max-w-2xl">
             <p>Created By Dyanmo UI </p>

@@ -22,50 +22,50 @@ export default function Logo47({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_209_371)">
-        <path d="M60 0H0V60H60V0Z" fill="white" fill-opacity="0.01" />
+      <g clipPath="url(#clip0_209_371)">
+        <path d="M60 0H0V60H60V0Z" fill="white" fillOpacity="0.01" />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M30 5C16.1929 5 5 16.1929 5 30C5 43.8071 16.1929 55 30 55V5Z"
           stroke={stroke}
-          stroke-width="5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M30 5C43.8071 5 55 16.1929 55 30C55 43.8071 43.8071 55 30 55V5Z"
           stroke={stroke}
-          stroke-width="5"
-          stroke-linejoin="round"
+          strokeWidth="5"
+          strokeLinejoin="round"
         />
         <path
           d="M30 45H11.25"
           stroke={stroke}
-          stroke-width="5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M30 35H6.25"
           stroke={stroke}
-          stroke-width="5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M30 25H6.25"
           stroke={stroke}
-          stroke-width="5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M30 15H11.25"
           stroke={stroke}
-          stroke-width="5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <path

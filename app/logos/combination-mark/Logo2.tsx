@@ -22,13 +22,13 @@ export default function Logo2({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_209_3)">
+      <g clipPath="url(#clip0_209_3)">
         <path
           d="M37.3337 2.66675V29.3334M37.3337 56.0001V29.3334M56.1898 10.4772L18.4775 48.1896M37.3337 29.3334L10.667 29.3334M56.1898 48.1896L18.4775 10.4772"
           stroke={stroke}
-          stroke-width="6"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="6"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <path

@@ -17,7 +17,7 @@ export default function BetterUptime({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_401_3118)">
+      <g clipPath="url(#clip0_401_3118)">
         <path
           d="M26.5243 8.66917C27.4145 8.44361 27.9911 7.87967 27.9911 6.87712C27.9911 5.46102 27.0258 4.63391 24.6061 4.63391H21.5596V13.4062H25.095C27.4646 13.4062 28.4676 12.341 28.4676 10.8873C28.4676 9.7093 27.8282 8.91981 26.5243 8.66917ZM24.744 5.99989C25.747 5.99989 26.2861 6.27561 26.2861 7.0651C26.2861 7.86717 25.7094 8.18046 24.9571 8.18046H23.2145V5.99989H24.744ZM25.1703 12.0403H23.2145V9.42108H25.1452C25.8849 9.42108 26.7249 9.64664 26.7249 10.7745C26.7249 11.6392 26.0729 12.0403 25.1703 12.0403Z"
           fill="#0E153A"
@@ -84,8 +84,8 @@ export default function BetterUptime({
           y2="12.364"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBECD" />
-          <stop offset="1" stop-color="#BCBECD" stop-opacity="0" />
+          <stop stopColor="#BCBECD" />
+          <stop offset="1" stopColor="#BCBECD" stopOpacity="0" />
         </linearGradient>
         <clipPath id="clip0_401_3118">
           <rect width="100" height="18.4578" fill="white" />

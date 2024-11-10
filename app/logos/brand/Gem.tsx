@@ -18,10 +18,10 @@ export default function Gem({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_401_2425)">
+      <g clipPath="url(#clip0_401_2425)">
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M0 9.44882L9.44882 0H28.3465L37.7953 9.44882L28.3465 18.8976L18.8976 28.3465L0 9.44882ZM28.3465 18.8976L18.8976 9.44882L28.3465 0V18.8976Z"
           fill="#0D61FF"
         />

@@ -18,7 +18,7 @@ export default function GoogleFonts({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_401_2301)">
+      <g clipPath="url(#clip0_401_2301)">
         <path
           d="M71.7317 7.33061V11.2534H70.5562V2.10449H75.8973V3.22838H71.7317V6.23116H75.4889V7.33061H71.7317Z"
           fill="#5F6368"

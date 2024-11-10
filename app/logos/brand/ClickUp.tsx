@@ -17,7 +17,7 @@ export default function ClickUp({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_401_2970)">
+      <g clipPath="url(#clip0_401_2970)">
         <path
           d="M0.0600586 17.8858L3.63513 15.1471C5.53453 17.6261 7.55255 18.7687 9.7988 18.7687C12.033 18.7687 13.994 17.6396 15.8078 15.1801L19.4339 17.8528C16.8168 21.3993 13.5646 23.2732 9.7988 23.2732C6.04504 23.2732 2.76126 21.4114 0.0600586 17.8858Z"
           fill="url(#paint0_linear_401_2970)"
@@ -40,8 +40,8 @@ export default function ClickUp({
           y2="20.6737"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#8930FD" />
-          <stop offset="1" stop-color="#49CCF9" />
+          <stop stopColor="#8930FD" />
+          <stop offset="1" stopColor="#49CCF9" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_401_2970"
@@ -51,8 +51,8 @@ export default function ClickUp({
           y2="7.80537"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF02F0" />
-          <stop offset="1" stop-color="#FFC800" />
+          <stop stopColor="#FF02F0" />
+          <stop offset="1" stopColor="#FFC800" />
         </linearGradient>
         <clipPath id="clip0_401_2970">
           <rect width="100" height="24.3243" fill="white" />

@@ -21,7 +21,7 @@ export default function Logo37({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_209_173)">
+      <g clipPath="url(#clip0_209_173)">
         <path
           d="M12.9276 52.7472L25.1586 40.5L12.9276 28.269L5.6052 20.9466L0 0V81L5.6052 60.0696L12.9276 52.7472Z"
           fill={fill}

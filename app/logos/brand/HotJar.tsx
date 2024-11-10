@@ -10,7 +10,7 @@ export default function HotJar({
   className?: string;
 }) {
   return (
-    <svg 
+    <svg
       className={className}
       width={width}
       height={height}
@@ -18,7 +18,7 @@ export default function HotJar({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_401_2150)">
+      <g clipPath="url(#clip0_401_2150)">
         <path
           d="M26.1426 19.5657V0.0280762H29.1781V7.73059C30.134 6.30683 31.5677 5.59469 33.4791 5.59418C35.1096 5.59418 36.3699 6.07673 37.2602 7.04183C38.1505 8.00693 38.5958 9.35162 38.5959 11.0759V19.5657H35.5603V11.4976C35.5603 9.26763 34.567 8.15253 32.5803 8.15223C31.5868 8.15223 30.7716 8.45209 30.1347 9.05181C29.498 9.65153 29.1791 10.4949 29.1786 11.5819V19.5655L26.1426 19.5657Z"
           fill="#323232"

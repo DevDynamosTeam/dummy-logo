@@ -17,7 +17,7 @@ export default function LiveStorm({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_401_1864)">
+      <g clipPath="url(#clip0_401_1864)">
         <path
           d="M23.2373 3.17432V14.3314H30.9312V12.1062H25.8385V3.17432H23.2373Z"
           fill="#12262B"
