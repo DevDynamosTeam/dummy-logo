@@ -25,7 +25,7 @@ The DynamoLogos component is a React component designed to display a logo based 
           </a>
           </p>
 
-<div align="center"><h4><a href="#-table-of-contents">️Table of Contents</a> • <a href="#-showcase">🏞 Showcase</a> • <a href="#-features">⭐️ Features</a> • <a href="#-stack-tech">🛠 Stack Tech</a> • <a href="#-setup">⚙ ️Setup</a> • <a href="#-about-the-author">👨🏻‍ About the Author</a> • <a href="#-license">📖 License</a></h4></div>
+<div align="center"><h4><a href="#-table-of-contents">️Table of Contents</a> • <a href="https://devdynamosteam.github.io/dynamo-logos/" target="_blank">🏞 Showcase</a> • <a href="#-features">⭐️ Features</a> • <a href="#-stack-tech">🛠 Stack Tech</a> • <a href="#-setup">⚙ ️Setup</a> • <a href="#-about-the-author">👨🏻‍ About the Author</a> • <a href="#-license">📖 License</a></h4></div>
 
 ## ️Table of Contents
 
@@ -33,7 +33,6 @@ The DynamoLogos component is a React component designed to display a logo based 
 <summary>Open Contents</summary>
 
 - [Dynamo Logos](#dynamo-logos)
-  - [🏞 Showcase](#-showcase)
   - [⭐️ Features](#-features)
   - [🛠 Stack Tech](#-stack-tech)
   - [⚙ ️Setup](#-setup)
@@ -55,7 +54,7 @@ Filter the logo by category
 
 3. **Get Specific Logo by Name**
 
-Check the logo collection page and use logo name
+Check the logo <a href="https://devdynamosteam.github.io/dynamo-logos/" target="_blank">collection</a> page and use logo name
 
 ## 🛠 Stack Tech
 
@@ -85,7 +84,7 @@ After installation, you can use the project by following these steps:
 
 - `<DynamoLogos category="abstract" />`
 
-- ``<DynamoLogos name="google" />``
+- `<DynamoLogos name="google" />`
 
 ## 👨🏻‍ About the Author
 

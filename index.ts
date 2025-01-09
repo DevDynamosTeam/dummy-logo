@@ -1,1 +1,1 @@
-export * from './app';
+export { default as DynamoLogos } from './app/component/DynamoLogos';
